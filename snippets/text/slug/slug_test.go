@@ -10,7 +10,7 @@ func TestMake(t *testing.T) {
 		{"Hello, World!", "hello-world"},
 		{"  Multiple   spaces  ", "multiple-spaces"},
 		{"snake_case_and-dash", "snake-case-and-dash"},
-		{"Café déjà vu", "caf-d-j-vu"}, // non-ASCII dropped
+		{"Café déjà vu", "caf-dj-vu"}, // non-ASCII dropped
 		{"--already--slug--", "already-slug"},
 		{"", ""},
 	}
